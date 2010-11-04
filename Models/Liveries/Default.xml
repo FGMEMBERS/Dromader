@@ -3,7 +3,6 @@
 <PropertyList>
 <sim>
 	<model>
-	<Fumigadores type="bool">false</Fumigadores>
 		<livery>
 			<name type="string">Default</name>
 			<texture>Textures/LiveryDefault.png</texture>

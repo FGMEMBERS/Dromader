@@ -42,7 +42,7 @@
 	</instrumentation>
 
 	<sound>
-		<path archive="y">Aircraft/Dromader/Sounds/Dromader-Sound.xml</path>
+		<path>Aircraft/Dromader/Sounds/Dromader-Sound.xml</path>
 	</sound>
 
 <help>

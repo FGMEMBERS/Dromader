@@ -1507,7 +1507,7 @@
 ****************************** -->
 
 <model>
-	<path>Aircraft/Dromader/Models/Matricula.xml</path>
+	<path>Aircraft/Dromader/Models/Immatriculation.xml</path>
 	<offsets>
 		<x-m> 0 </x-m>
 		<y-m> 0 </y-m>
@@ -1528,7 +1528,7 @@ Si se desean desactivar, es necesario "descomentar" todas
 
 
 <effect>
-	<inherits-from>Aircraft/Dromader/Models/Effects/ReflectCromo</inherits-from>
+	<inherits-from>Aircraft/Dromader/Models/Effects/ReflectChrome</inherits-from>
 		<object-name>Aspa1a</object-name>
 		<object-name>Aspa2a</object-name>
 		<object-name>Aspa3a</object-name>

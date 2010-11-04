@@ -16,7 +16,7 @@ OBJECT poly
 name "Alas"
 data 8
 Tube.019
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 540
 -0.269106 0.253525 -8.83329
@@ -4177,7 +4177,7 @@ OBJECT poly
 name "AleronDER"
 data 8
 Cube.007
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 24
 1.08122 -0.318469 -5.18272
@@ -4384,7 +4384,7 @@ OBJECT poly
 name "AleronIZQ"
 data 8
 Cube.003
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 24
 1.08122 -0.318469 5.18195
@@ -4591,7 +4591,7 @@ OBJECT poly
 name "Antena"
 data 12
 Cylinder.005
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 61
 3.73376 0.988714 0
@@ -6905,7 +6905,7 @@ OBJECT poly
 name "Aspa1c"
 data 12
 Cylinder.051
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 95
 -2.44498 0.300835 -0.014428
@@ -8242,7 +8242,7 @@ OBJECT poly
 name "Aspa2c"
 data 12
 Cylinder.017
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 95
 -2.44498 0.014429 0.300832
@@ -9579,7 +9579,7 @@ OBJECT poly
 name "Aspa3c"
 data 12
 Cylinder.012
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 95
 -2.44498 -0.300832 0.01443
@@ -10916,7 +10916,7 @@ OBJECT poly
 name "Aspa4c"
 data 12
 Cylinder.018
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 95
 -2.44498 -0.01443 -0.300835
@@ -13647,7 +13647,7 @@ OBJECT poly
 name "BarrasTrenes"
 data 12
 Cylinder.020
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 72
 0.578975 -0.626873 -1.56436
@@ -14449,7 +14449,7 @@ OBJECT poly
 name "BaseBeaconSUP"
 data 8
 Tube.007
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 65
 2.72105 1.85807 0.034695
@@ -14955,7 +14955,7 @@ OBJECT poly
 name "Beacon"
 data 10
 Circle.002
-texture "textures/transparent.png"
+texture "Textures/transparent.png"
 crease 30.000000
 numvert 78
 -1.08189 -1.06476 0
@@ -15474,7 +15474,7 @@ OBJECT poly
 name "Bisagras"
 data 8
 Cylinder
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 156
 1.70714 0.72848 0.608873
@@ -17007,7 +17007,7 @@ OBJECT poly
 name "BisagrasCompDeposito"
 data 12
 Cylinder.004
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 432
 0.59415 1.13511 -0.15978
@@ -20652,7 +20652,7 @@ OBJECT poly
 name "Bordes"
 data 8
 Tube.021
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 214
 1.26481 1.26063 0.134568
@@ -25773,7 +25773,7 @@ OBJECT poly
 name "CompDeposito"
 data 4
 Tube
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 50
 0.11664 1.00075 0.120652
@@ -35221,7 +35221,7 @@ OBJECT poly
 name "Elevador01"
 data 8
 Cube.006
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 91
 6.61943 0.88383 0.182517
@@ -35989,7 +35989,7 @@ OBJECT poly
 name "Elevador02"
 data 8
 Cube.011
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 91
 6.61943 0.88383 -0.181779
@@ -38887,7 +38887,7 @@ OBJECT poly
 name "Estabilizador"
 data 8
 Tube.016
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 114
 5.87688 0.905623 -0.09305
@@ -39794,7 +39794,7 @@ OBJECT poly
 name "Flap01"
 data 8
 Cube.005
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 18
 1.81187 -0.31021 5.15903
@@ -39933,7 +39933,7 @@ OBJECT poly
 name "Flap02"
 data 8
 Cube.004
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 18
 1.80176 -0.575093 2.71884
@@ -40072,7 +40072,7 @@ OBJECT poly
 name "Flap03"
 data 8
 Cube.009
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 18
 1.80176 -0.575093 -2.71896
@@ -40211,7 +40211,7 @@ OBJECT poly
 name "Flap04"
 data 8
 Cube.008
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 18
 1.81187 -0.31021 -5.15967
@@ -43476,7 +43476,7 @@ OBJECT poly
 name "Fuselaje"
 data 8
 Tube.002
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 1180
 2.92613 1.21976 -0.244637
@@ -53055,7 +53055,7 @@ OBJECT poly
 name "GiroHelice"
 data 6
 Circle
-texture "textures/Spinning.png"
+texture "Textures/Spinning.png"
 crease 30.000000
 numvert 37
 -2.37274 0.612356 1.47836
@@ -57095,7 +57095,7 @@ OBJECT poly
 name "Landing"
 data 10
 Circle.003
-texture "textures/transparent.png"
+texture "Textures/transparent.png"
 crease 30.000000
 numvert 52
 -0.707561 0.315275 6.10718
@@ -60911,7 +60911,7 @@ OBJECT poly
 name "ManillaPtaDelDERext"
 data 12
 Cylinder.014
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 85
 2.26695 1.53522 -0.342803
@@ -62470,7 +62470,7 @@ OBJECT poly
 name "ManillaPtaDelIZQext"
 data 12
 Cylinder.011
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 85
 2.26695 1.53522 0.343664
@@ -64029,7 +64029,7 @@ OBJECT poly
 name "ManillaPuertaTrasIZQ"
 data 12
 Cylinder.010
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 170
 2.5139 1.14166 0.456369
@@ -78664,7 +78664,7 @@ OBJECT poly
 name "MatriculaDER01"
 data 8
 Tube.039
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.85558 0.322641 -0.216736
@@ -78684,7 +78684,7 @@ OBJECT poly
 name "MatriculaDER02"
 data 8
 Tube.040
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.85558 0.322641 -0.216736
@@ -78704,7 +78704,7 @@ OBJECT poly
 name "MatriculaDER03"
 data 8
 Tube.041
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.67783 0.322641 -0.242643
@@ -78724,7 +78724,7 @@ OBJECT poly
 name "MatriculaDER04"
 data 8
 Tube.042
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.50007 0.322641 -0.268551
@@ -78744,7 +78744,7 @@ OBJECT poly
 name "MatriculaDER05"
 data 8
 Tube.043
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.32231 0.322641 -0.294459
@@ -78764,7 +78764,7 @@ OBJECT poly
 name "MatriculaDER06"
 data 8
 Tube.044
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.14455 0.322641 -0.320367
@@ -78784,7 +78784,7 @@ OBJECT poly
 name "MatriculaINF01"
 data 8
 Tube.051
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.893043 -0.537101 3.2282
@@ -78822,7 +78822,7 @@ OBJECT poly
 name "MatriculaINF02"
 data 8
 Tube.052
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.895027 -0.485117 3.73643
@@ -78860,7 +78860,7 @@ OBJECT poly
 name "MatriculaINF03"
 data 8
 Tube.053
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.897012 -0.433133 4.24466
@@ -78898,7 +78898,7 @@ OBJECT poly
 name "MatriculaINF04"
 data 8
 Tube.054
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.898997 -0.381149 4.7529
@@ -78936,7 +78936,7 @@ OBJECT poly
 name "MatriculaINF05"
 data 8
 Tube.055
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.900982 -0.329165 5.26113
@@ -78974,7 +78974,7 @@ OBJECT poly
 name "MatriculaINF06"
 data 8
 Tube.031
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.017808 -0.194124 6.27599
@@ -79012,7 +79012,7 @@ OBJECT poly
 name "MatriculaIZQ01"
 data 8
 Tube.033
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.14455 0.322641 0.320169
@@ -79032,7 +79032,7 @@ OBJECT poly
 name "MatriculaIZQ02"
 data 8
 Tube.034
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.32231 0.322641 0.294261
@@ -79052,7 +79052,7 @@ OBJECT poly
 name "MatriculaIZQ03"
 data 8
 Tube.035
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.50007 0.322641 0.268352
@@ -79072,7 +79072,7 @@ OBJECT poly
 name "MatriculaIZQ04"
 data 8
 Tube.036
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.67783 0.322641 0.242444
@@ -79092,7 +79092,7 @@ OBJECT poly
 name "MatriculaIZQ05"
 data 8
 Tube.037
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.85558 0.322641 0.216536
@@ -79112,7 +79112,7 @@ OBJECT poly
 name "MatriculaIZQ06"
 data 8
 Tube.038
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 4
 4.85558 0.322641 0.216536
@@ -79132,7 +79132,7 @@ OBJECT poly
 name "MatriculaSUP01"
 data 8
 Tube.045
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.900644 -0.336446 -3.20875
@@ -79170,7 +79170,7 @@ OBJECT poly
 name "MatriculaSUP02"
 data 8
 Tube.046
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.902517 -0.287456 -3.71495
@@ -79208,7 +79208,7 @@ OBJECT poly
 name "MatriculaSUP03"
 data 8
 Tube.047
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.904389 -0.238465 -4.22116
@@ -79246,7 +79246,7 @@ OBJECT poly
 name "MatriculaSUP04"
 data 8
 Tube.048
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.906261 -0.189475 -4.72737
@@ -79284,7 +79284,7 @@ OBJECT poly
 name "MatriculaSUP05"
 data 8
 Tube.049
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.908133 -0.140485 -5.23357
@@ -79322,7 +79322,7 @@ OBJECT poly
 name "MatriculaSUP06"
 data 8
 Tube.050
-texture "textures/Matricula.png"
+texture "Textures/Immatriculation.png"
 crease 30.000000
 numvert 8
 0.910005 -0.091494 -5.73978
@@ -81078,7 +81078,7 @@ OBJECT poly
 name "MecanismosFlaps"
 data 12
 Cylinder.006
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 684
 1.00764 -0.734855 0.791392
@@ -89946,7 +89946,7 @@ OBJECT poly
 name "Motor02"
 data 12
 Cylinder.009
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 22
 -1.31991 0.811065 0.116255
@@ -118255,7 +118255,7 @@ OBJECT poly
 name "NavDER"
 data 10
 Circle.001
-texture "textures/transparent.png"
+texture "Textures/transparent.png"
 crease 30.000000
 numvert 13
 -0.0294189 0.247972 -8.87248
@@ -118349,7 +118349,7 @@ OBJECT poly
 name "NavIZQ"
 data 10
 Circle.004
-texture "textures/transparent.png"
+texture "Textures/transparent.png"
 crease 30.000000
 numvert 13
 -0.029417 0.247972 8.87248
@@ -133869,7 +133869,7 @@ OBJECT poly
 name "PieCable01"
 data 12
 Cylinder.001
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 16
 2.03623 1.81001 -0.018581
@@ -134008,7 +134008,7 @@ OBJECT poly
 name "PieCable02"
 data 12
 Cylinder.002
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 58
 2.08977 1.82441 0.014342
@@ -134574,7 +134574,7 @@ OBJECT poly
 name "Pitot"
 data 8
 Tube.018
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 36
 -0.483157 -0.40233 -2.54241
@@ -135736,7 +135736,7 @@ OBJECT poly
 name "PuertaDelDER"
 data 8
 Tube.005
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 103
 2.32344 0.934666 -0.526704
@@ -136522,7 +136522,7 @@ OBJECT poly
 name "PuertaDelIZQ"
 data 8
 Tube.001
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 103
 2.01147 1.53985 0.329291
@@ -137308,7 +137308,7 @@ OBJECT poly
 name "PuertaTrasIZQ"
 data 8
 Tube.009
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 41
 2.82326 0.968786 0.388088
@@ -138063,7 +138063,7 @@ OBJECT poly
 name "RejillaVentCabina"
 data 8
 Cube.015
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 4
 2.55362 1.84201 -0.101348
@@ -138083,7 +138083,7 @@ OBJECT poly
 name "RejillaVentMotor"
 data 8
 Cube.014
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 4
 -1.16932 -0.245175 0.751079
@@ -138103,7 +138103,7 @@ OBJECT poly
 name "RuedaDER"
 data 12
 Cylinder.064
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 686
 -0.409555 -1.54728 -1.82524
@@ -143766,7 +143766,7 @@ OBJECT poly
 name "RuedaIZQ"
 data 12
 Cylinder.042
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 686
 -0.409554 -1.54728 1.59737
@@ -149429,7 +149429,7 @@ OBJECT poly
 name "RuedaTrasera"
 data 12
 Cylinder.041
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 687
 -0.81264 -1.52538 -0.150298
@@ -202293,7 +202293,7 @@ OBJECT poly
 name "Timon"
 data 8
 Cube.010
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 103
 6.17532 0.591113 0.056517
@@ -204645,7 +204645,7 @@ OBJECT poly
 name "Torus.001"
 data 9
 Torus.003
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 668
 1.25554 -0.43799 1.6465
@@ -226510,7 +226510,7 @@ OBJECT poly
 name "Ventilador"
 data 8
 Tube.020
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 30
 4.09828 0.458759 0.266031
@@ -226715,7 +226715,7 @@ OBJECT poly
 name "VentiladorCabina"
 data 4
 Cube
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 144
 2.48947 1.86542 -0.106473
@@ -229022,7 +229022,7 @@ OBJECT poly
 name "VentiladorMotorLAT"
 data 8
 Cube.002
-texture "textures/LiveryDefault.png"
+texture "Textures/LiveryDefault.png"
 crease 30.000000
 numvert 140
 -1.1662 -0.269957 0.671007
