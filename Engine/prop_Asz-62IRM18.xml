@@ -19,11 +19,11 @@
   <ixx>14.7823 </ixx>
   <diameter unit="IN">129.9 </diameter>
   <numblades> 4 </numblades>
-  <gearratio>1.27 </gearratio>
+  <gearratio>1.687 </gearratio>
   <minpitch> 12 </minpitch>
-  <maxpitch> 45 </maxpitch>
-  <minrpm>   1473 </minrpm>
-  <maxrpm>   1733 </maxrpm>
+  <maxpitch> 65 </maxpitch>
+  <minrpm>   296.3 </minrpm>
+  <maxrpm>   1304 </maxrpm>
 
   <table name="C_THRUST" type="internal">
       <tableData>
@@ -79,7 +79,7 @@
        3.6      0.3631   0.3213   -0.2215   -0.4785   -0.4055   -0.3119   0.1828   0.3949   0.5178
        3.8      0.3806   0.3388   -0.2389   -0.5178   -0.4473   -0.3849   0.1017   0.3824   0.5178
        4.0      0.3980   0.3568   -0.2570   -0.5178   -0.5178   -0.4573   0.0206   0.3537   0.5178
-       6.0      0.5178   0.5178   -0.5178   -0.5178   -0.5178   -0.5178   -0.5178   -0.3119   0.5178
+       6.0      0.5178   0.5178   -0.5178   -0.5178   -0.5178   -0.5178  -0.5178  -0.3119   0.5178
      </tableData>
   </table>
 

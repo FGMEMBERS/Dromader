@@ -2,9 +2,9 @@
 <PropertyList>
 
 <sim>
-	<author>Pavel Cueto, Fernando Espinosa, Horacio Contreras</author>
+	<author>Pavel Cueto, Fernando Espinosa</author>
 	<description>PZL M18B Dromader</description>
-	<aircraft-version>10-10-2010</aircraft-version>
+	<aircraft-version>31-02-2011</aircraft-version>
 	<status>early-production</status>
 	<flight-model>jsb</flight-model>
 	<aero>Dromader</aero>
@@ -26,7 +26,7 @@
 	<internal archive="y">true</internal>
 	<config>
 		<x-offset-m archive="y"> 0.00</x-offset-m>  <!-- Lateral -->
-		<y-offset-m archive="y"> 1.46</y-offset-m>  <!-- Altura -->
+		<y-offset-m archive="y"> 1.53</y-offset-m>  <!-- Altura -->
 		<z-offset-m archive="y"> 2.23</z-offset-m>  <!-- Profundidad -->
 		<default-field-of-view-deg>60</default-field-of-view-deg>
 		<pitch-offset-deg>-15</pitch-offset-deg>
@@ -37,12 +37,8 @@
 		<splash-texture>Aircraft/Dromader/splash.png</splash-texture>
 	</startup>
 
-	<instrumentation>
-		<path>Aircraft/Dromader/Models/Instruments/instrumentation.xml</path>
-	</instrumentation>
-
 	<sound>
-		<path>Aircraft/Dromader/Sounds/Dromader-Sound.xml</path>
+		<path archive="y">Aircraft/Dromader/Sounds/Dromader-Sound.xml</path>
 	</sound>
 
 <help>
@@ -50,15 +46,15 @@
 	<line></line>
 	<key>
 		<name>e</name>
-		<desc>Pesticide dust</desc>
+		<desc>Water drop/Pesticide dust</desc>
 	</key>
 	<key>
 		<name>{ }</name>
-		<desc>Magnetos ON/OFF (temporal)</desc>
+		<desc>Magnetos ON/OFF</desc>
 	</key>
 	<key>
 		<name>S</name>
-		<desc>Starting (temporal)</desc>
+		<desc>Starter</desc>
 	</key>
 	<key>
 		<name>d</name>
@@ -89,19 +85,22 @@
 	<line>      Cruise ............................... 90-103 KIAS</line>
 	<line>      Stall .................................. 65 KIAS (estimated)</line>
 	<line></line>
+	<line>      Max takeoff weight (MTOW) ..... 11904 lb</line>
+	<line>      Max landing weight ..................... 9200 lb</line>
+	<line>____________________________________________</line>
 	<line>      Takeoff ............................. Flaps 15'</line>
 	<line>      Landing ............................ Flaps 30'</line>
 	<line>____________________________________________</line>
-	<line> Credits</line>
-	<line></line>
-	<line> Pavel Cueto: 3D, exterior textures, sounds, particles</line>
-	<line> Fernando Espinosa: FDM, animations, xml base</line>
-	<line> Horacio Contreras: Instruments, interior textures</line>
-	<line></line>
-	<line> www.vivefg.org</line>
+	<line>      www.vivefg.org</line>
 </help>
 
 <menubar include="Dialogs/Dromader-menu.xml"/>
+
+  <flaps>
+   <setting>0.000</setting>
+   <setting>0.475</setting> 
+   <setting>0.950</setting> 
+  </flaps>
 
 </sim>
     
@@ -113,23 +112,33 @@
 	</flight>
 	<gear>
 		<brake-parking>1</brake-parking>
-	</gear>
-	<door>0.0</door>
-	<door>0.0</door>
-	<door>0.0</door>
+		<brake-left>0</brake-left>
+		<brake-right>0</brake-right>
+	</gear>	
+	<door>0</door>
+	<door>0</door>
+	<door>0</door>
+	<lighting>
+		<strobe>0</strobe>
+		<beacon>0</beacon>
+		<nav-lights>0</nav-lights>
+		<landing-lights>0</landing-lights>
+		<instruments-norm>0</instruments-norm>
+	</lighting>
+	<circuit-breakers>
+		<cabin-lights-pwr>false</cabin-lights-pwr>
+	</circuit-breakers>
 </controls>
 
-<lighting>
-	<strobe type="bool">true</strobe>
-	<beacon type="bool">true</beacon>
-	<nav-lights type="bool">true</nav-lights>
-</lighting>
+
+
 
 <nasal>
 	<Dromader>
 		<file>Aircraft/Dromader/Nasal/liveries.nas</file>
 		<file>Aircraft/Dromader/Nasal/limits.nas</file>
 		<file>Aircraft/Dromader/Nasal/immat.nas</file>
+		<file>Aircraft/Dromader/Nasal/light.nas</file>
 	</Dromader>
 </nasal>
 
@@ -152,9 +161,62 @@
 	<max-negative-g>-1.1</max-negative-g>
 </limits>
 
+<payload>
+	<weight>
+		<name type="string">Pilot</name>
+		<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[0]"/>
+		<min-lb type="double">0.0</min-lb>
+		<max-lb type="double">300.0</max-lb>
+	</weight>
+	<weight>
+		<name type="string">Baggage</name>
+		<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[1]"/>
+		<min-lb type="double">0.0</min-lb>
+		<max-lb type="double">66.0</max-lb>
+	</weight>
+	<weight>
+		<name type="string">Water-Pesticide</name>
+		<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[2]"/>
+		<min-lb type="double">0.0</min-lb>
+		<max-lb type="double">4800</max-lb>
+	</weight>
+</payload> 
+
 <input>
 <keyboard>
-
+		
+	<!-- Frenos independientes -->
+	
+	<key n="44">
+		<name>,</name>
+			<desc>brake-left</desc>
+		<binding>
+			<command>nasal</command>
+			<script>
+			if(getprop("controls/gear/brake-left") > 1) {
+				interpolate("controls/gear/brake-left", 0, 1);
+				} else {
+				interpolate("controls/gear/brake-left", 1, 1);
+			}
+			</script>
+		</binding>
+	</key>
+	
+	<key n="46">
+		<name>.</name>
+			<desc>brake-right</desc>
+		<binding>
+			<command>nasal</command>
+			<script>
+			if(getprop("controls/gear/brake-right") > 1) {
+				interpolate("controls/gear/brake-right", 0, 1);
+				} else {
+				interpolate("controls/gear/brake-right", 1, 1);
+			}
+			</script>
+		</binding>
+	</key>
+	
 <!-- Puertas -->
 
 	<key n="100">
@@ -203,7 +265,7 @@
 	</key>
 
 <!-- Pesticida -->
-
+<!--
 	<key n="101">
 		<name>e</name>
 			<desc>Pesticide Trigger</desc> 
@@ -211,6 +273,30 @@
 			<command>property-assign</command>
 			<property>controls/armament/trigger</property>
 			<value>true</value>
+		</binding>
+		<mod-up>
+			<binding>
+				<command>property-assign</command>
+				<property>controls/armament/trigger</property>
+				<value>false</value>
+			</binding> 
+		</mod-up>
+	</key>
+-->
+
+<!-- Agua -->
+	<key n="101">
+		<name>e</name>
+			<desc>WaterDrop</desc> 
+		<binding>
+			<command>property-assign</command>
+			<property>controls/armament/trigger</property>
+			<value>true</value>
+		</binding>
+		<binding>
+			<command>property-assign</command>
+			<property>fdm/jsbsim/inertia/pointmass-weight-lbs[2]</property>
+			<value>0</value>
 		</binding>
 		<mod-up>
 			<binding>

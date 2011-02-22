@@ -20,7 +20,6 @@
 
 	<condition>
 		<property>controls/armament/trigger</property>
-<!--		<property>/engines/engine/running</property> -->
 	</condition>
 
 	<emissive>false</emissive>

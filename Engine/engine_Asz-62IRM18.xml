@@ -12,12 +12,12 @@
 -->
 
 <piston_engine name="Asz-62IRM18">
-  <minmp unit="INHG">          5  </minmp><!-- Deprecated -->
+  <minmp unit="INHG">         5  </minmp><!-- Deprecated -->
   <maxmp unit="INHG">         29.9 </maxmp><!-- Deprecated -->
-  <displacement unit="IN3"> 1837.30 </displacement>
+  <displacement unit="IN3">  1837.30 </displacement>
 <!-- Definir el valor de <bsfc> **consumo combustible**a partir de las revoluciones maximas <maxhp> -->
   <!--<bsfc>           0.45 </bsfc>-->
-  <maxhp>        967.00 </maxhp>
+  <maxhp>       967.00 </maxhp>
   <cycles>         4.0 </cycles>
   <idlerpm>      500.0 </idlerpm>
   <maxrpm>      2200.0 </maxrpm>

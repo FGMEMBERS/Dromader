@@ -49,7 +49,7 @@
 	<engine>
 		<name>engine</name>
 		<mode>looped</mode>
-		<path>Aircraft/Dromader/Sounds/Cessna150Engine.wav</path>
+		<path>Aircraft/Dromader/Sounds/ASZ-62IRM18int.wav</path>
 			<property>/engines/engine/running</property>
 		<volume>
 			<property>/sim/current-view/internal</property>
@@ -70,7 +70,7 @@
 	<propeller>
 		<name>propeller</name>
 		<mode>looped</mode>
-		<path>Aircraft/Dromader/Sounds/Cessna150Propeller.wav</path>
+		<path>Aircraft/Dromader/Sounds/ASZ-62IRM18ext.wav</path>
 			<property>/engines/engine/running</property>
 		<volume>
 			<property>/orientation/alpha-deg</property>
@@ -80,7 +80,7 @@
 		</volume>
 		<volume>
 			<property>/sim/current-view/internal</property>
-			<factor>0.2</factor>
+			<factor>0.5</factor>
 		</volume>
 		<pitch>
 			<property>/engines/engine/mp-osi</property>
@@ -103,7 +103,7 @@
 		<path>Aircraft/Dromader/Sounds/Cessna150Flaps.wav</path>
 			<property>surface-positions/flap-pos-norm</property>
 		<volume>
-			<factor>1</factor>
+			<factor>0.8</factor>
 		</volume>
 	</flap>
 
@@ -358,12 +358,12 @@
 	</click>
 
 	<click> 
-		<name>Flaps Button Pos 1 down</name>
+		<name>Flaps Button Pos 1</name>
 		<path>Aircraft/Dromader/Sounds/ButtonFlaps.wav</path>
 		<condition>
 			<equals>
 				<property>controls/flight/flaps</property>
-				<value>0.3333334</value>
+				<value>0.475</value>
 			</equals>
 		</condition>
 		<volume> 
@@ -372,54 +372,12 @@
 	</click>
 
 	<click> 
-		<name>Flaps Button Pos 1 up</name>
+		<name>Flaps Button Pos 2</name>
 		<path>Aircraft/Dromader/Sounds/ButtonFlaps.wav</path>
 		<condition>
 			<equals>
 				<property>controls/flight/flaps</property>
-				<value>0.3333332</value>
-			</equals>
-		</condition>
-		<volume> 
-			<factor>1.0</factor>
-		</volume>
-	</click>
-
-	<click> 
-		<name>Flaps Button Pos 2 down</name>
-		<path>Aircraft/Dromader/Sounds/ButtonFlaps.wav</path>
-		<condition>
-			<equals>
-				<property>controls/flight/flaps</property>
-				<value>0.6666668</value>
-			</equals>
-		</condition>
-		<volume> 
-			<factor>1.0</factor>
-		</volume>
-	</click>
-
-	<click> 
-		<name>Flaps Button Pos 2 up</name>
-		<path>Aircraft/Dromader/Sounds/ButtonFlaps.wav</path>
-		<condition>
-			<equals>
-				<property>controls/flight/flaps</property>
-				<value>0.6666666</value>
-			</equals>
-		</condition>
-		<volume> 
-			<factor>1.0</factor>
-		</volume>
-	</click>
-
-	<click> 
-		<name>Flaps Button Pos 3</name>
-		<path>Aircraft/Dromader/Sounds/ButtonFlaps.wav</path>
-		<condition>
-			<equals>
-				<property>controls/flight/flaps</property>
-				<value>1</value>
+				<value>0.95</value>
 			</equals>
 		</condition>
 		<volume> 
@@ -609,29 +567,6 @@
       </volume>
     </click>
 
-	<rain>
-      <name>rain</name>
-      <mode>looped</mode>
-      <path>Aircraft/Zlin-50lx/Sounds/rain_canopy.wav</path>
-      <condition>
-        <greater-than>
-          <property>/environment/metar/rain-norm</property>
-          <value>0.2</value>
-        </greater-than>
-      </condition>
-      <volume>
-        <property>/environment/metar/rain-norm</property>
-        <factor>1.00</factor>
-        <offset>0.00</offset>
-        <min>0.4</min>
-        <max>0.9</max>
-      </volume>
-      <pitch>
-        <property>/velocities/airspeed-kt</property>
-        <factor>0.001</factor>
-        <offset>1.0</offset>
-      </pitch>
-    </rain>
 -->
 
 </fx>
