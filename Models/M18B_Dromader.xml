@@ -1985,7 +1985,7 @@ se solucionara cuando tengan textura, en lugar de color
 <!-- Baliza  *Beacon* -->
 	
   <model>  <!-- Beacon inferior -->
-    <path>Aircraft\Dromader\Models\Lights\Beacon.xml</path>
+    <path>Aircraft/Dromader/Models/Lights/Beacon.xml</path>
     <offsets>
       <x-m>-1.08188</x-m>
       <y-m>  0.000 </y-m>
@@ -1994,7 +1994,7 @@ se solucionara cuando tengan textura, en lugar de color
   </model>
 
   <model>   <!-- Beacon superior -->
-    <path>Aircraft\Dromader\Models\Lights\Beacon.xml</path>
+    <path>Aircraft/Dromader/Models/Lights/Beacon.xml</path>
     <offsets>
       <x-m> 2.68472</x-m>
       <y-m>  0.000 </y-m>
@@ -2005,7 +2005,7 @@ se solucionara cuando tengan textura, en lugar de color
  <!-- Luces de navegacion *Lights of navigation* -->
 
   <model>   <!-- Navegacion Izquierda -->
-    <path>Aircraft\Dromader\Models\Lights\NavL.xml</path>
+    <path>Aircraft/Dromader/Models/Lights/NavL.xml</path>
     <offsets>
       <x-m>-0.049822</x-m>
       <y-m>-8.87531 </y-m>
@@ -2014,7 +2014,7 @@ se solucionara cuando tengan textura, en lugar de color
   </model>
   
   <model>   <!-- Navegacion Derecha -->
-    <path>Aircraft\Dromader\Models\Lights\NavR.xml</path>
+    <path>Aircraft/Dromader/Models/Lights/NavR.xml</path>
     <offsets>
       <x-m>-0.049822</x-m>
       <y-m> 8.87531 </y-m>
@@ -2033,7 +2033,7 @@ se solucionara cuando tengan textura, en lugar de color
 <!-- luz de aterrizaje *landing light* -->
 
   <model>   <!-- Izquierda exterior -->
-    <path>Aircraft\Dromader\Models\Lights\LandingLights.xml</path>
+    <path>Aircraft/Dromader/Models/Lights/LandingLights.xml</path>
     <offsets>
       <x-m>-0.493676</x-m>
       <y-m>-6.36942</y-m>
@@ -2042,7 +2042,7 @@ se solucionara cuando tengan textura, en lugar de color
   </model>    
   
    <model>   <!-- Izquierda interior -->
-    <path>Aircraft\Dromader\Models\Lights\LandingLights.xml</path>
+    <path>Aircraft/Dromader/Models/Lights/LandingLights.xml</path>
     <offsets>
       <x-m>-0.493676</x-m>
       <y-m>-5.67058</y-m>
@@ -2051,7 +2051,7 @@ se solucionara cuando tengan textura, en lugar de color
   </model>    
 
   <model>   <!-- Derecha exterior -->
-    <path>Aircraft\Dromader\Models\Lights\LandingLights.xml</path>
+    <path>Aircraft/Dromader/Models/Lights/LandingLights.xml</path>
     <offsets>
       <x-m>-0.493677</x-m>
       <y-m> 6.36942</y-m>
@@ -2060,7 +2060,7 @@ se solucionara cuando tengan textura, en lugar de color
   </model>    
   
   <model>   <!-- Derecha interior -->
-    <path>Aircraft\Dromader\Models\Lights\LandingLights.xml</path>
+    <path>Aircraft/Dromader/Models/Lights/LandingLights.xml</path>
     <offsets>
       <x-m>-0.493677</x-m>
       <y-m> 5.67058</y-m>
@@ -2071,7 +2071,7 @@ se solucionara cuando tengan textura, en lugar de color
   <!-- estroboscopico  *strobe* -->
  
   <model>  <!-- Strobe Izquierdo -->
-    <path>Aircraft\Dromader\Models\Lights\Strobe.xml</path>
+    <path>Aircraft/Dromader/Models/Lights/Strobe.xml</path>
     <offsets>
       <x-m> 0.062285</x-m>
       <y-m>-8.88433</y-m>
@@ -2080,7 +2080,7 @@ se solucionara cuando tengan textura, en lugar de color
   </model>
 
   <model> <!-- Strobe derecho -->
-    <path>Aircraft\Dromader\Models\Lights\Strobe.xml</path>
+    <path>Aircraft/Dromader/Models/Lights/Strobe.xml</path>
     <offsets>
       <x-m> 0.062284</x-m>
       <y-m> 8.88433</y-m>
