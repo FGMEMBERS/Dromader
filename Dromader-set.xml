@@ -9,6 +9,20 @@
 	<flight-model>jsb</flight-model>
 	<aero>Dromader</aero>
 
+	<tags>
+		<tag>ga</tag>
+		<tag>1970s</tag>
+		<tag>1980s</tag>
+		<tag>1990s</tag>
+		<tag>2000s</tag>
+		<tag>2010s</tag>
+		<tag>tail-dragger</tag>
+		<tag>fixed-gear</tag>
+		<tag>piston</tag>
+		<tag>radial</tag>
+		<tag>single-engine</tag>
+	</tags>
+
 	<rating>
 		<FDM type="int">3</FDM>
 		<systems type="int">2</systems>
